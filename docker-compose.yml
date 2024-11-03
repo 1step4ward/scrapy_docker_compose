@@ -1,0 +1,11 @@
+services:
+  scrapy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: scrapy
+    container_name: my_scrapy
+    volumes:
+      - .:/usr/src/app
+      - /mnt/prox-share/scrapy:/usr/src/app/data
+    tty: true

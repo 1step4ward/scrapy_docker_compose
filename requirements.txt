@@ -1,0 +1,5 @@
+scrapy
+pyarrow
+fastparquet
+pillow
+streamlit
